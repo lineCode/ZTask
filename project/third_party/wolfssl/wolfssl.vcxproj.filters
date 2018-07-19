@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\aes.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\arc4.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\asn.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\blake2b.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\camellia.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\chacha.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\chacha20_poly1305.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\coding.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\src\crl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\des3.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\dh.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\dsa.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\ecc.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\error.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\hash.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\hc128.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\hmac.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\integer.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\src\internal.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\src\keys.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\logging.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\md4.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\md5.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\memory.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\src\ocsp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\pkcs7.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\pkcs12.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\poly1305.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\pwdbased.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\rabbit.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\random.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\ripemd.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\rsa.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\sha.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\sha256.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\sha512.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\signature.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\src\ssl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\src\tls.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\wc_encrypt.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\wc_port.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\wolfevent.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\wolfmath.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\src\wolfio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\src\sniffer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\src\tls13.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\asm.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\cmac.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\compress.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\cpuid.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\curve25519.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\ed25519.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\fe_low_mem.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\fe_operations.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\ge_low_mem.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\ge_operations.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\idea.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\md2.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\sha3.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\sp.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\srp.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\wolfssl\wolfcrypt\src\tfm.c">
+      <Filter>wolfcrypt\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\third_party\wolfssl\user_settings.h" />
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\aes.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\arc4.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\asn.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\asn_public.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\blake2.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\blake2-impl.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\blake2-int.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\camellia.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\chacha.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\chacha20_poly1305.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\cmac.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\coding.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\compress.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\cpuid.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\curve25519.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\des3.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\dh.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\dsa.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\ecc.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\ed25519.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\error-crypt.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\fe_operations.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\fips_test.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\ge_operations.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\hash.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\hc128.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\hmac.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\idea.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\integer.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\logging.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\md2.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\md4.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\md5.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\mem_track.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\memory.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\misc.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\mpi_class.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\mpi_superclass.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\pkcs7.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\pkcs12.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\poly1305.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\pwdbased.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\rabbit.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\random.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\ripemd.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\rsa.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\settings.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\sha.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\sha3.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\sha256.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\sha512.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\signature.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\sp.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\srp.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\tfm.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\types.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\visibility.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\wc_encrypt.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\wc_port.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\wolfevent.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfcrypt\wolfmath.h">
+      <Filter>wolfssl\wolfcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\aes.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\asn1.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\bio.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\bn.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\conf.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\crypto.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\des.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\dh.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\dsa.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ec.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ec25519.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ecdh.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ecdsa.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ed25519.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\engine.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\err.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\evp.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\hmac.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\lhash.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\md4.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\md5.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ocsp.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\opensslconf.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\opensslv.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ossl_typ.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\pem.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\pkcs12.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\rand.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ripemd.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\rsa.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\sha.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ssl.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ssl23.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\stack.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\ui.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\x509.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\openssl\x509v3.h">
+      <Filter>wolfssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\asn1.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\bio.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\bn.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\conf.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\crypto.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\des.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\dh.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\dsa.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ec.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ec25519.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ecdh.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ecdsa.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ed25519.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\engine.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\err.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\evp.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\hmac.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\lhash.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\md4.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\md5.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ocsp.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\opensslconf.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\opensslv.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ossl_typ.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\pem.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\pkcs12.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\rand.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ripemd.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\rsa.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\sha.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ssl.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ssl23.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\stack.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\ui.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\x509.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\openssl\x509v3.h">
+      <Filter>cyassl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\aes.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\arc4.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\asn.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\asn_public.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\blake2.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\blake2-impl.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\blake2-int.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\camellia.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\chacha.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\coding.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\compress.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\des3.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\dh.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\dsa.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\ecc.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\error-crypt.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\fips_test.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\hc128.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\hmac.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\integer.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\logging.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\md2.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\md4.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\md5.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\memory.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\misc.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\mpi_class.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\mpi_superclass.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\pkcs7.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\poly1305.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\pwdbased.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\rabbit.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\random.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\ripemd.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\rsa.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\settings.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\settings_comp.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\sha.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\sha256.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\sha512.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\tfm.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\types.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\visibility.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\wc_port.h">
+      <Filter>cyassl\ctaocrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ctaocrypt\port\pic32\pic32mz-crypt.h">
+      <Filter>cyassl\ctaocrypt\port\pic32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\callbacks.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\certs_test.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\crl.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\error-ssl.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\internal.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ocsp.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\sniffer.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\sniffer_error.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\ssl.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\test.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\cyassl\version.h">
+      <Filter>cyassl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\callbacks.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\certs_test.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\crl.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\error-ssl.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\internal.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\ocsp.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\sniffer.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\sniffer_error.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\ssl.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\test.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\version.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\wolfssl\wolfssl\wolfio.h">
+      <Filter>wolfssl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cyassl">
+      <UniqueIdentifier>{e2dc9c8d-709b-42f2-8428-85f63cb9f255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{b21e8a22-20fa-4ba3-b25e-f4d01fafaba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wolfcrypt">
+      <UniqueIdentifier>{c409f74a-5f1a-4bc9-9a0b-f8c64986c162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wolfssl">
+      <UniqueIdentifier>{64e0c034-bdc8-415e-b26d-be27f19f217a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cyassl\ctaocrypt">
+      <UniqueIdentifier>{62611b84-b396-4ec5-8ee4-38e35b98d43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cyassl\openssl">
+      <UniqueIdentifier>{ffca529a-23d9-44b1-a7c4-33cd92bc4379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cyassl\ctaocrypt\port">
+      <UniqueIdentifier>{bd7e3fd2-1c4b-4288-8c64-c3658edb47eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cyassl\ctaocrypt\port\pic32">
+      <UniqueIdentifier>{3f2548fa-4245-4d7a-a3e1-e76d0062adfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wolfssl\wolfcrypt">
+      <UniqueIdentifier>{a90e4b0d-e90a-4aa3-b5f3-446ab564d801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wolfssl\openssl">
+      <UniqueIdentifier>{504aeb33-ed0f-47d6-92c6-85202dfe3cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wolfssl\wolfcrypt\port">
+      <UniqueIdentifier>{d615f6e5-5f61-4c6f-a1ea-698d6d2086c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wolfcrypt\src">
+      <UniqueIdentifier>{cbf475b7-6452-4d2b-b423-549941b42b13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\third_party\wolfssl\cyassl\openssl\include.am">
+      <Filter>cyassl\openssl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\third_party\wolfssl\cyassl\sniffer_error.rc">
+      <Filter>cyassl</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

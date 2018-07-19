@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{58DFF972-C7B0-4D3D-9689-4FD3BB3E95EC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ZTask</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\$(ProjectName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\$(ProjectName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\$(ProjectName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\$(ProjectName)</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;BUILDING;CURL_STATICLIB;CARES_STATICLIB;ZTASK_STATICLIB;BUILDING_LIBZTASK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\third_party\duktape\;..\..\third_party\lua\src;..\..\ztask;..\..\third_party\jemalloc\include\jemalloc;..\..\third_party\jemalloc\include\msvc_compat;..\..\third_party\libcurl\curl\include\;..\..\third_party\cares\src;..\..\third_party\zlib;..\..\third_party\iconv</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;4146</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;IPHLPAPI.lib;Psapi.lib;Userenv.lib;lua.lib;libcurl.lib;Wldap32.lib;zlib.lib;wolfssl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\tool;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>$(OutDir)zip.exe $(SolutionDir)..\ztask\lua\ -o $(SolutionDir)..\ztask\server\lua_zip.h -v lua_zip -p qwer112233</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;BUILDING;CURL_STATICLIB;CARES_STATICLIB;ZTASK_STATICLIB;BUILDING_LIBZTASK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\third_party\duktape\;..\..\third_party\lua\src;..\..\ztask;..\..\third_party\jemalloc\include\jemalloc;..\..\third_party\jemalloc\include\msvc_compat;..\..\third_party\libcurl\curl\include\;..\..\third_party\cares\src;..\..\third_party\zlib;..\..\third_party\iconv</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;4146</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;IPHLPAPI.lib;Psapi.lib;Userenv.lib;lua.lib;libcurl.lib;Wldap32.lib;zlib.lib;wolfssl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\tool;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>$(OutDir)zip.exe $(SolutionDir)..\ztask\lua\ -o $(SolutionDir)..\ztask\server\lua_zip.h -v lua_zip -p qwer112233</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;BUILDING;ZTASK_STATICLIB;BUILDING_LIBZTASK;JEMALLOC_EXPORT=;CURL_STATICLIB;CARES_STATICLIB;USE_JEMALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\third_party\duktape\;..\..\third_party\lua\src;..\..\ztask;..\..\third_party\jemalloc\include\jemalloc;..\..\third_party\jemalloc\include\msvc_compat;..\..\third_party\libcurl\curl\include\;..\..\third_party\cares\src;..\..\third_party\zlib;..\..\third_party\iconv</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <DisableSpecificWarnings>4996;4146</DisableSpecificWarnings>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\tool;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;IPHLPAPI.lib;Psapi.lib;Userenv.lib;lua.lib;libcurl.lib;Wldap32.lib;zlib.lib;wolfssl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <PreBuildEvent>
+      <Command>$(OutDir)zip.exe $(SolutionDir)..\ztask\lua\ -o $(SolutionDir)..\ztask\server\lua_zip.h -v lua_zip -p qwer112233</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;WIN64;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;BUILDING;ZTASK_STATICLIB;BUILDING_LIBZTASK;JEMALLOC_EXPORT=;CURL_STATICLIB;CARES_STATICLIB;USE_JEMALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\third_party\duktape\;..\..\third_party\lua\src;..\..\ztask;..\..\third_party\jemalloc\include\jemalloc;..\..\third_party\jemalloc\include\msvc_compat;..\..\third_party\libcurl\curl\include\;..\..\third_party\cares\src;..\..\third_party\zlib;..\..\third_party\iconv</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;4146</DisableSpecificWarnings>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <ExceptionHandling>false</ExceptionHandling>
+      <OmitFramePointers>true</OmitFramePointers>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\tool;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;IPHLPAPI.lib;Psapi.lib;Userenv.lib;lua.lib;libcurl.lib;wolfssl.lib;zlib.lib;Wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>$(OutDir)zip.exe $(SolutionDir)..\ztask\lua\ -o $(SolutionDir)..\ztask\server\lua_zip.h -v lua_zip -p qwer112233</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ztask\atomic.c" />
+    <ClCompile Include="..\..\ztask\coroutine.c" />
+    <ClCompile Include="..\..\ztask\lualib\lpeg\lpcap.c" />
+    <ClCompile Include="..\..\ztask\lualib\lpeg\lpcode.c" />
+    <ClCompile Include="..\..\ztask\lualib\lpeg\lptree.c" />
+    <ClCompile Include="..\..\ztask\lualib\lpeg\lpvm.c" />
+    <ClCompile Include="..\..\ztask\lualib\lsha1.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-bson.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-cluster.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-crypt.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-curl.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-debugchannel.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-iconv.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-memory.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-multicast.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-mysqlaux.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-netpack.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-profile.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-seri.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-sharedata.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-socket.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-ztask.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua-stm.c" />
+    <ClCompile Include="..\..\ztask\lualib\lua_cjson.c" />
+    <ClCompile Include="..\..\ztask\lualib\sproto\lsproto.c" />
+    <ClCompile Include="..\..\ztask\lualib\sproto\sproto.c" />
+    <ClCompile Include="..\..\ztask\malloc_hook.c" />
+    <ClCompile Include="..\..\ztask\server\service_harbor.c" />
+    <ClCompile Include="..\..\ztask\server\service_logger.c" />
+    <ClCompile Include="..\..\ztask\server\service_snc.c" />
+    <ClCompile Include="..\..\ztask\server\service_snjs.c" />
+    <ClCompile Include="..\..\ztask\server\service_snlua.c" />
+    <ClCompile Include="..\..\ztask\thread.c" />
+    <ClCompile Include="..\..\ztask\ztask_curl.c" />
+    <ClCompile Include="..\..\ztask\ztask_daemon.c" />
+    <ClCompile Include="..\..\ztask\ztask_dns.c" />
+    <ClCompile Include="..\..\ztask\ztask_env.c" />
+    <ClCompile Include="..\..\ztask\ztask_error.c" />
+    <ClCompile Include="..\..\ztask\ztask_handle.c" />
+    <ClCompile Include="..\..\ztask\ztask_harbor.c" />
+    <ClCompile Include="..\..\ztask\ztask_log.c" />
+    <ClCompile Include="..\..\ztask\ztask_main.c" />
+    <ClCompile Include="..\..\ztask\ztask_module.c" />
+    <ClCompile Include="..\..\ztask\ztask_monitor.c" />
+    <ClCompile Include="..\..\ztask\ztask_mq.c" />
+    <ClCompile Include="..\..\ztask\ztask_server.c" />
+    <ClCompile Include="..\..\ztask\ztask_socket.c" />
+    <ClCompile Include="..\..\ztask\ztask_start.c" />
+    <ClCompile Include="..\..\ztask\ztask_timer.c" />
+    <ClCompile Include="..\..\ztask\ztask_ui.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ztask\atomic.h" />
+    <ClInclude Include="..\..\ztask\coroutine.h" />
+    <ClInclude Include="..\..\ztask\lualib\lpeg\lpcap.h" />
+    <ClInclude Include="..\..\ztask\lualib\lpeg\lpcode.h" />
+    <ClInclude Include="..\..\ztask\lualib\lpeg\lptree.h" />
+    <ClInclude Include="..\..\ztask\lualib\lpeg\lptypes.h" />
+    <ClInclude Include="..\..\ztask\lualib\lpeg\lpvm.h" />
+    <ClInclude Include="..\..\ztask\lualib\lua-seri.h" />
+    <ClInclude Include="..\..\ztask\lualib\sproto\msvcint.h" />
+    <ClInclude Include="..\..\ztask\lualib\sproto\sproto.h" />
+    <ClInclude Include="..\..\ztask\malloc_hook.h" />
+    <ClInclude Include="..\..\ztask\queue.h" />
+    <ClInclude Include="..\..\ztask\rwlock.h" />
+    <ClInclude Include="..\..\ztask\server\service_harbor.h" />
+    <ClInclude Include="..\..\ztask\server\service_logger.h" />
+    <ClInclude Include="..\..\ztask\server\service_snc.h" />
+    <ClInclude Include="..\..\ztask\server\service_snjs.h" />
+    <ClInclude Include="..\..\ztask\server\service_snlua.h" />
+    <ClInclude Include="..\..\ztask\spinlock.h" />
+    <ClInclude Include="..\..\ztask\thread.h" />
+    <ClInclude Include="..\..\ztask\tree.h" />
+    <ClInclude Include="..\..\ztask\ztask.h" />
+    <ClInclude Include="..\..\ztask\ztask_curl.h" />
+    <ClInclude Include="..\..\ztask\ztask_daemon.h" />
+    <ClInclude Include="..\..\ztask\ztask_dns.h" />
+    <ClInclude Include="..\..\ztask\ztask_env.h" />
+    <ClInclude Include="..\..\ztask\ztask_func.h" />
+    <ClInclude Include="..\..\ztask\ztask_handle.h" />
+    <ClInclude Include="..\..\ztask\ztask_harbor.h" />
+    <ClInclude Include="..\..\ztask\ztask_http.h" />
+    <ClInclude Include="..\..\ztask\ztask_log.h" />
+    <ClInclude Include="..\..\ztask\ztask_module.h" />
+    <ClInclude Include="..\..\ztask\ztask_monitor.h" />
+    <ClInclude Include="..\..\ztask\ztask_mq.h" />
+    <ClInclude Include="..\..\ztask\ztask_server.h" />
+    <ClInclude Include="..\..\ztask\ztask_socket.h" />
+    <ClInclude Include="..\..\ztask\ztask_start.h" />
+    <ClInclude Include="..\..\ztask\ztask_timer.h" />
+    <ClInclude Include="..\..\ztask\ztask_ui.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\ztask\asm\make_i386_ms_pe_masm.asm">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(FileName).obj</ObjectFileName>
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml /Fo $(IntDir)%(fileName).obj -c -coff -nologo -Zp4 -Cp -Cx /Zi /Zd /W3 -DBOOST_CONTEXT_EXPORT=EXPORT %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(fileName).obj</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(fileName).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ml /Fo $(IntDir)%(fileName).obj -c -coff -nologo -Zp4 -Cp -Cx /Zi /Zd /W3 -DBOOST_CONTEXT_EXPORT=EXPORT %(FullPath)</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\ztask\asm\jump_i386_ms_pe_masm.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml /Fo $(IntDir)%(fileName).obj -c -coff -nologo -Zp4 -Cp -Cx /Zi /Zd /W3 -DBOOST_CONTEXT_EXPORT=EXPORT %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(fileName).obj</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ml /Fo $(IntDir)%(fileName).obj -c -coff -nologo -Zp4 -Cp -Cx /Zi /Zd /W3 -DBOOST_CONTEXT_EXPORT=EXPORT %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(fileName).obj</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\ztask\asm\jump_x86_64_ms_pe_masm.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ml64 /Fo $(IntDir)%(fileName).obj -c -coff -nologo -Zp4 -Cp -Cx /Zi /Zd /W3 -DBOOST_CONTEXT_EXPORT=EXPORT %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)%(fileName).obj</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ml64 /Fo $(IntDir)%(fileName).obj -c -coff -nologo -Zp4 -Cp -Cx /Zi /Zd /W3 -DBOOST_CONTEXT_EXPORT=EXPORT %(FullPath)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)%(fileName).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ztask\asm\make_x86_64_ms_pe_masm.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)%(fileName).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ml64 /Fo $(IntDir)%(fileName).obj -c -coff -nologo -Zp4 -Cp -Cx /Zi /Zd /W3 -DBOOST_CONTEXT_EXPORT=EXPORT %(FullPath)</Command>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)%(fileName).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ml64 /Fo $(IntDir)%(fileName).obj -c -coff -nologo -Zp4 -Cp -Cx /Zi /Zd /W3 -DBOOST_CONTEXT_EXPORT=EXPORT %(FullPath)</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\ztask\lua\lualib\ztask\coroutine.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\db\mysql.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\db\redis.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\debug.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\harbor.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\inject.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\injectcode.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\manager.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\queue.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\remotedebug.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\ztask\lua\service\bootstrap.lua">
+      <FileType>Document</FileType>
+    </Text>
+    <Text Include="..\..\ztask\lua\service\cdummy.lua">
+      <FileType>Document</FileType>
+    </Text>
+    <Text Include="..\..\ztask\lua\service\launcher.lua">
+      <FileType>Document</FileType>
+    </Text>
+    <Text Include="..\..\ztask\lua\service\service_mgr.lua">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\ztask\lua\lualib\cluster.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\loader.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\md5.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\mqueue.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\multicast.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\protobuf.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\sproto.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\sprotoloader.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\sprotoparser.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask.lua">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ztask\lua\lualib\curl.lua" />
+    <None Include="..\..\ztask\lua\lualib\http\httpc.lua" />
+    <None Include="..\..\ztask\lua\lualib\http\httpd.lua" />
+    <None Include="..\..\ztask\lua\lualib\http\internal.lua" />
+    <None Include="..\..\ztask\lua\lualib\http\sockethelper.lua" />
+    <None Include="..\..\ztask\lua\lualib\http\url.lua" />
+    <None Include="..\..\ztask\lua\lualib\uitl.lua" />
+    <None Include="..\..\ztask\lua\lualib\ztask\socket.lua" />
+    <None Include="..\..\ztask\lua\lualib\ztask\socketchannel.lua" />
+    <None Include="..\..\ztask\lua\service\cmaster.lua" />
+    <None Include="..\..\ztask\lua\service\cslave.lua" />
+    <None Include="..\..\ztask\lua\service\datacenterd.lua" />
+    <None Include="..\..\ztask\lua\service\debug_agent.lua" />
+    <None Include="..\..\ztask\lua\service\debug_console.lua" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{da7eb572-0ab3-43de-a697-4475ed844bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lualib">
+      <UniqueIdentifier>{b819618e-4867-475a-a233-109cb4b4c2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server">
+      <UniqueIdentifier>{4ea2f488-8133-461d-8310-248b26585fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lualib\lpeg">
+      <UniqueIdentifier>{36e67b36-5657-4664-8e25-8064ed37149d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lualib\sproto">
+      <UniqueIdentifier>{30eac602-203b-43cd-adb1-237acc8f5778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\asm">
+      <UniqueIdentifier>{9b218691-b1d4-4c09-9ddf-bd4220bc1640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\jslib">
+      <UniqueIdentifier>{573e9a6e-0176-4c92-a267-16b369f7853c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua">
+      <UniqueIdentifier>{e619a88d-3a01-4238-941b-9acabffce970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\js">
+      <UniqueIdentifier>{835433be-73b6-4814-836c-4d20abe15df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\lualib">
+      <UniqueIdentifier>{9548c8be-61af-4475-9f1b-3bbfd1d3f17a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\lualib\ztask">
+      <UniqueIdentifier>{bcabc709-f536-48a3-b2d5-f28fe9134d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\lualib\ztask\db">
+      <UniqueIdentifier>{cfdb9f1d-3c45-40d6-b920-c9bdf4ed2af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\service">
+      <UniqueIdentifier>{84e2dc32-a030-4415-ba5f-246e4fc33730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\lualib\http">
+      <UniqueIdentifier>{e0333d86-9992-4eac-9021-11c61a31946b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ztask\malloc_hook.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\server\service_harbor.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\server\service_logger.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\server\service_snlua.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-memory.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-seri.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-profile.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lpeg\lpcap.c">
+      <Filter>src\lualib\lpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lpeg\lpcode.c">
+      <Filter>src\lualib\lpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lpeg\lptree.c">
+      <Filter>src\lualib\lpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lpeg\lpvm.c">
+      <Filter>src\lualib\lpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\sproto\lsproto.c">
+      <Filter>src\lualib\sproto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\sproto\sproto.c">
+      <Filter>src\lualib\sproto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-netpack.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-crypt.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lsha1.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-bson.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-cluster.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-debugchannel.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-multicast.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-sharedata.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-stm.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_daemon.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_env.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_error.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_handle.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_harbor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_log.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_module.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_monitor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_mq.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_server.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_socket.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_start.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_timer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\server\service_snc.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\atomic.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\thread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_ui.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_curl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\server\service_snjs.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-ztask.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-curl.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-socket.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-mysqlaux.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua-iconv.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\lualib\lua_cjson.c">
+      <Filter>src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\coroutine.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ztask\ztask_dns.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ztask\atomic.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\spinlock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\malloc_hook.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\server\service_snlua.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\server\service_logger.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\lualib\lua-seri.h">
+      <Filter>src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\server\service_harbor.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\lualib\lpeg\lpcap.h">
+      <Filter>src\lualib\lpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\lualib\lpeg\lpcode.h">
+      <Filter>src\lualib\lpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\lualib\lpeg\lptree.h">
+      <Filter>src\lualib\lpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\lualib\lpeg\lptypes.h">
+      <Filter>src\lualib\lpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\lualib\lpeg\lpvm.h">
+      <Filter>src\lualib\lpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\lualib\sproto\msvcint.h">
+      <Filter>src\lualib\sproto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\lualib\sproto\sproto.h">
+      <Filter>src\lualib\sproto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_daemon.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_env.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_handle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_harbor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_log.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_module.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_monitor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_mq.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_server.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_socket.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_timer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_start.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\server\service_snc.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\coroutine.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\rwlock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\queue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\thread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\tree.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_curl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_ui.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_http.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_dns.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\server\service_snjs.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ztask\ztask_func.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\ztask\asm\make_i386_ms_pe_masm.asm">
+      <Filter>src\asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ztask\asm\jump_i386_ms_pe_masm.asm">
+      <Filter>src\asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ztask\asm\jump_x86_64_ms_pe_masm.asm">
+      <Filter>src\asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ztask\asm\make_x86_64_ms_pe_masm.asm">
+      <Filter>src\asm</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\ztask\lua\lualib\ztask\coroutine.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\debug.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\harbor.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\inject.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\injectcode.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\manager.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\queue.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\remotedebug.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\service\bootstrap.lua">
+      <Filter>src\lua\service</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\service\cdummy.lua">
+      <Filter>src\lua\service</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\service\launcher.lua">
+      <Filter>src\lua\service</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\service\service_mgr.lua">
+      <Filter>src\lua\service</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\db\mysql.lua">
+      <Filter>src\lua\lualib\ztask\db</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask\db\redis.lua">
+      <Filter>src\lua\lualib\ztask\db</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\ztask.lua">
+      <Filter>src\lua\lualib</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\cluster.lua">
+      <Filter>src\lua\lualib</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\loader.lua">
+      <Filter>src\lua\lualib</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\md5.lua">
+      <Filter>src\lua\lualib</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\mqueue.lua">
+      <Filter>src\lua\lualib</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\multicast.lua">
+      <Filter>src\lua\lualib</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\protobuf.lua">
+      <Filter>src\lua\lualib</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\sproto.lua">
+      <Filter>src\lua\lualib</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\sprotoloader.lua">
+      <Filter>src\lua\lualib</Filter>
+    </Text>
+    <Text Include="..\..\ztask\lua\lualib\sprotoparser.lua">
+      <Filter>src\lua\lualib</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ztask\lua\lualib\ztask\socketchannel.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\lualib\ztask\socket.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\service\cmaster.lua">
+      <Filter>src\lua\service</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\service\cslave.lua">
+      <Filter>src\lua\service</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\service\datacenterd.lua">
+      <Filter>src\lua\service</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\lualib\curl.lua">
+      <Filter>src\lua\lualib</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\service\debug_console.lua">
+      <Filter>src\lua\service</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\lualib\uitl.lua">
+      <Filter>src\lua\lualib\ztask</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\lualib\http\httpc.lua">
+      <Filter>src\lua\lualib\http</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\lualib\http\httpd.lua">
+      <Filter>src\lua\lualib\http</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\lualib\http\internal.lua">
+      <Filter>src\lua\lualib\http</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\lualib\http\sockethelper.lua">
+      <Filter>src\lua\lualib\http</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\lualib\http\url.lua">
+      <Filter>src\lua\lualib\http</Filter>
+    </None>
+    <None Include="..\..\ztask\lua\service\debug_agent.lua">
+      <Filter>src\lua\service</Filter>
+    </None>
+  </ItemGroup>
+</Project>

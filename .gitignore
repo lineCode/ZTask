@@ -1,0 +1,7 @@
+project/.vs/*
+bin/
+build/
+*.vcxproj.user
+ztask/server/lua_zip.h
+project/ztask/tmp.zip
+*.APS
